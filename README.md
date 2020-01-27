@@ -1,4 +1,7 @@
-# adapt-contrib-blank  
+# adapt-modal
+
+Adapt modal is created from adapt-blank plugin provided by adapt framework. 
+We redisgned and used it for making modal component.
 
 **Blank** is a *presentation component* bundled with the [Adapt framework](https://github.com/adaptlearning/adapt_framework).  
 
