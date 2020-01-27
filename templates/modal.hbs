@@ -1,0 +1,41 @@
+<div class="modal-inner component-inner">
+    {{> component this}}
+    <div class="modal-widget component-widget">
+     
+        <div class="plain-text">{{{text}}}</div>
+
+        <div class="graphic">
+        </div><hr>
+
+        <button class="nxt" aria-label="{{buttonSubmitValue}}">{{buttonSubmitValue}}</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modalheader">
+                    <span class="close">{{{spanClose}}}</span>
+                        <h2>popup Header</h2>
+                </div>
+                <div class="modal-body">
+                    <p>{{{flowerGallery}}}</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>popup Footer</h3>
+                </div>
+            </div>
+        </div><hr>
+
+        <div class="flowers">
+            <ul>
+                 {{#each flowerGallery}}
+                 <li>Index: {{@index}} | key: {{@key}} | {{this}}</li>
+                 {{else}}
+                 <p>List is empty</p>
+                 {{/each}}
+            </ul>    
+        </div> <hr>
+
+
+    </div>   
+</div>

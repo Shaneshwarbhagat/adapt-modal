@@ -1,0 +1,14 @@
+{
+  "_id":"c-02",
+  "_parentId":"b-02",
+  "_type":"component",
+  "_component":"modal",
+  "_classes":"",
+  "text":"<h3>Modal Component</h3>",
+  "comment1":"Below two attributes are for BUTTON fetching value from JSON",
+  "buttonSubmitValue": "Fetching json value",
+  "spanClose":"&times",
+  "flowerGallery":[
+    "rose","sunflower","tulip"
+  ]
+}
